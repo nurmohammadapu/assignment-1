@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #FFFFE9;
+}
+.top-div{
+    background-color: #CBCDA9;
+    width: 100%;
+    height: 53px;
+    
+}
+.nav-content{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    
+}
+.nav-content a{
+    font-family: inter;
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+#about-us{
+    font-weight: 700;
+}
+.header-picture{
+    background-image: url(/Assignment-1/Pictures/postive-caring-relationships-teachers\ 1.png);
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#head-text{
+    font-weight: 700;
+    font-size: 96px;
+    color: white;
+    font-family: source serif;
+    
+}
+#body-text{
+    text-align: center;
+    max-width: 663px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    font-family: lato;
+
+}
+.content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 21.6px;
+    padding: 10px;
+    background-color:#F3F25B;
+    
+}
+#see-more{
+    font-family: lato;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+
+}
+
+
+
+
+/* hero section */
+.hero-section{
+    display: flex;
+    justify-content: center;
+}
+.hero-content{
+    margin: 5rem;
+    width: 1159.78px;
+    height: 1740.18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.head-title{
+    font-size: 45px;
+    font-weight: 600;
+    font-size: source serif pro;
+    margin-bottom: 5rem;
+}
+
+/* box */
+/* .box-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+} */
+
+.box{
+    width: 1159.78px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}  
+.left-box{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left-box-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.left-box-title{
+    width: 423px;
+    font-family: source serif pro;
+    font-weight: 600;
+    font-size: 36px;
+    color: black;
+}
+.under-lined{
+    width: 309px;
+    height: 3px;
+    background-color: #F3F25B;
+}
+.left-box-body{
+    width: 528px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    color: #848383;
+
+}
+.left-box-button{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    height: 53px;
+    border-radius: 12px;
+    background-color: #F3F25B;
+    box-shadow: 0px 4px 12px 0px #0000001F;
+
+}
+.left-box-button a{
+    font-weight: 600;
+    font-family: lato;
+    color: black;
+    font-size: 16px;
+
+}
+.right-box{
+    width: 521.78px;
+    height: 512.18px;
+    
+}
+
+.right-box img{
+    width: 521.78px;
+    height: 512.18px;
+}
+/* box 2 */
+.left-box-2{
+    
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left-box-content-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: end;
+}
+.title-2{
+    text-align: right;
+    width: 618px;
+}
+.body-2{
+    text-align: right;
+    
+}
+
+/* card section  */
+.card-container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1480px;
+    height: 683px;
+    
+}
+.card-top-div{
+    width: 1122px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-div{
+    font-family: source serif pro;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+.icon-div{
+    display: flex;
+    gap: 2rem;
+    
+}
+.icon-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#EFEFEF;
+}
+.icon-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FA8B02;
+}
+.icon-img{
+    height: 14px;
+    color: #333333;
+}
+.card-div{
+    margin-top: 2rem;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
+
+    
+}
+@media screen and (max-width:1690px) {
+  
+    .card-div{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bottom-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+
+.card{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 549px;
+    height: 300px;
+    border-radius: 24px;
+    border: 1px solid #EFEFEF;
+    background-color: #FFFFE9;
+
+}
+#facepic{
+    height: 80px;
+    width: 80px;
+}
+#face-name{
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: source serif pro;
+}
+#face-detail{
+    padding-top:1rem;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: source serif pro;
+}
+
+/* footer  */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-box{
+    padding-top: 10rem;
+}
+#top-box-title{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: source serif pro;
+}
+.underline-div{
+    width: 309px;
+    height: 3px;
+    background-color: #F3F25B;
+}
+.bottom-box{
+    width: 1102px;
+    margin: 4rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#footer-pic{
+    width: 109.12px;
+    height: 81.79px;
+    
+
+}
+#footer-card-title{
+    text-align: center;
+    width: 238px;
+    font-family: Source Serif Pro;
+    font-size: 24px;
+    font-weight: 600;
+    
+
+}
+#footer-card-desc{
+    width: 334px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.footer-underline-div{
+    height: 10px;
+    width: 100%;
+    background-color: #F4ED5E;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}

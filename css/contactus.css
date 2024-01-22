@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #FFFFE9;
+    align-items: center;
+}
+.top-div{
+    background-color: #CBCDA9;
+    width: 100%;
+    height: 53px;
+    
+}
+.nav-content{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    
+}
+.nav-content a{
+    font-family: inter;
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+#contact-us{
+    font-weight: 700;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1200px;
+}
+.top-box{
+    margin: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title{
+    font-family: Source Serif Pro;
+    font-size: 6rem;
+    font-weight: 700;
+    max-width:472px ;
+    text-align: center;
+    
+
+
+
+}
+#desc{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    max-width: 663px;
+
+
+
+}
+@media screen and (max-width:670px) {
+    .bottom-right-box{
+        display: none;
+    }
+
+}
+
+.bottom-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    max-width:866px;
+    height: 563px;
+    border-radius: 8px;
+    background-color: #201F1F;
+
+
+}
+.bottom-left-box{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.bottom-left-box form{
+    
+    font-family: Lexend Deca;
+    font-size: 12px;
+    font-weight: 300;
+    color:#CCC6C6;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.form-title{
+
+    
+    font-family: Source Serif Pro;
+    font-size: 32px;
+    font-weight: 400;
+    color:#CCC6C6;
+    max-width: 303px;
+}
+.form-box{
+    padding: 1rem;
+    text-align: start;
+    max-width: 367.82px;
+    height: 42.28px;
+    border-radius: 2.21px;
+    border: 0.37px solid #8D8D8D ;
+    background-color: #343333;
+
+}
+.box2{
+
+    height: 89.07px;
+
+}
+.bottom-right-box{
+    height: 100%;
+    max-width: 50%;
+
+}
+.bottom-right-box img{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    font-family: Source Serif Pro;
+    font-size: 14px;
+    font-weight: 400;
+    width: 166px;
+    height: 36px;
+    padding: 9px, 25px, 9px, 25px;
+    border-radius: 1.72px;
+    gap: 10px;
+    background: #F3F25B;
+
+
+  
+
+}
